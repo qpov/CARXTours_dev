@@ -1,0 +1,105 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: #D44040;
+  position: fixed;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+.header > .brand-name {
+  color: white;
+  font-family: Arial;
+  text-decoration: none;
+  transition: 0.5s;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.header > .brand-name:hover {
+  color: #1b1b1b;
+  transition: 0.5s;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu.show {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.menu > div > a {
+  color: white;
+  font-family: Arial;
+  text-decoration: none;
+  transition: 0.5s;
+  font-size: 1.3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.menu > div > a:hover {
+  color: #1b1b1b;
+  transition: 0.5s;
+}
+
+.menu-btn {
+  display: none;
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.menu-btn div {
+  width: 1.5rem;
+  height: 0.2rem;
+  background: white;
+  border-radius: 10px;
+  transition: all 0.3s linear;
+  position: relative;
+  transform-origin: 1px;
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 0.5rem 1rem;
+  }
+  .header > .brand-name {
+    font-size: 1.75rem;
+  }
+  .menu {
+    display: none;
+  }
+  .menu.show {
+    display: flex;
+    gap: 1rem;
+  }
+  .menu-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .menu-btn div {
+    width: 70%;
+    height: 2px;
+  }
+}

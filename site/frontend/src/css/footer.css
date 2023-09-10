@@ -1,0 +1,13 @@
+.footer > p {
+  margin-top: 2rem;
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  word-wrap: break-word;
+}
+
+@media screen and (max-width: 768px) {
+  .footer > p {
+    font-size: 0.8rem;
+  }
+}

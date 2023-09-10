@@ -1,0 +1,72 @@
+.tour_grid {
+    margin-top: 5rem;
+    margin-left: 1rem;
+    display: flex;
+}
+
+.back a {
+    text-decoration: none;
+    color: white;
+    background-color: #1b1b1b;
+    border: white 0.2rem solid;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    align-self: center;
+    width: 3rem;
+    transition: 0.5s;
+}
+
+.back a:hover {
+    background-color: white;
+    color: #1b1b1b;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.round {
+    margin-left: 2rem;
+}
+
+.participants li {
+    margin-top: 1rem;
+}
+
+.fp {
+    margin-top: 2rem;
+}
+
+.fp button {
+    background-color: #1b1b1b;
+    color: white;
+    border: white 0.2rem solid;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    min-width: 10.4rem;
+}
+
+.fp button:hover {
+    background-color: white;
+    color: #1b1b1b;
+    transition: 0.5s;
+}
+
+.tp button {
+    background-color: #1b1b1b;
+    color: white;
+    border: white 0.2rem solid;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    min-width: 10.4rem;
+    transition: 0.5s;
+    margin-top: 0.5rem;
+}
+
+.tp button:hover {
+    background-color: white;
+    color: #1b1b1b;
+    transition: 0.5s;
+}
+
+.test {
+    margin-top: 5rem;
+}

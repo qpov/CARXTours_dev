@@ -1,0 +1,11 @@
+Start Django in cmd
+A:
+cd CARXTours\backend
+.venv\Scripts\activate
+cd drf
+python manage.py runserver
+
+Start React in cmd
+A:
+cd CARXTours\frontend
+npm start

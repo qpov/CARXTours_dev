@@ -1,0 +1,251 @@
+.create {
+    padding-top: 5rem;
+    padding-left: 1rem;
+    text-align: center;
+    align-items: center;
+}
+
+.create > p {
+    color: white;
+    font-family: Arial;
+    font-size: 1rem;
+}
+
+.tour_name > label {
+    color: white;
+    font-family: Arial;
+    font-size: 1rem;
+    flex-direction: column;
+    display: flex;
+    padding-top: 0.5rem;
+}
+
+.tour_name > input {
+    font-family: Arial;
+    font-size: 1rem;
+    border: 0 solid white;
+    border-radius: 1rem;
+    padding: 0.3rem;
+    margin-top: 0.3rem;
+    text-align: center;
+    width: 15rem;
+}
+
+.tour_date {
+    margin-top: 1rem;
+}
+
+.tour_date > label {
+    color: white;
+    font-family: Arial;
+    font-size: 1rem;
+    flex-direction: column;
+    display: flex;
+}
+
+.tour_date > input {
+    font-family: Arial;
+    font-size: 1rem;
+    border: 0 solid white;
+    border-radius: 1rem;
+    padding: 0.3rem;
+    margin-top: 0.3rem;
+}
+
+.tour_map {
+    margin-top: 1rem;
+}
+
+.tour_map > label {
+    color: white;
+    font-family: Arial;
+    font-size: 1rem;
+    flex-direction: column;
+    display: flex;
+}
+
+.tour_map > input {
+    font-family: Arial;
+    font-size: 1rem;
+    border: 0 solid white;
+    border-radius: 1rem;
+    padding: 0.3rem;
+    margin-top: 0.3rem;
+    text-align: center;
+    width: 15rem;
+}
+
+.tour_pilots {
+    margin-top: 1rem;
+}
+
+.tour_pilots > label {
+    color: white;
+    font-family: Arial;
+    font-size: 1rem;
+    flex-direction: column;
+    display: flex;
+}
+
+.tour_pilots > input {
+    font-family: Arial;
+    font-size: 1rem;
+    border: 0 solid white;
+    border-radius: 1rem;
+    padding: 0.3rem;
+    margin-top: 0.3rem;
+    width: 15rem;
+    text-align: center;
+}
+
+.tour_reglament {
+    margin-top: 1rem;
+}
+
+.tour_reglament > label {
+    color: white;
+    font-family: Arial;
+    font-size: 1rem;
+    flex-direction: column;
+    display: flex;
+}
+
+.tour_reglament > textarea {
+    font-family: Arial;
+    font-size: 1rem;
+    border: 0 solid white;
+    border-radius: 1rem;
+    padding: 0.3rem;
+    width: 15rem;
+    height: 5rem;
+    margin-top: 0.3rem;
+}
+
+.tour_visual_reglament {
+    margin-top: 1rem;
+}
+
+.tour_visual_reglament > label {
+    color: white;
+    font-family: Arial;
+    font-size: 1rem;
+    flex-direction: column;
+    display: flex;
+}
+
+.tour_visual_reglament > textarea {
+    font-family: Arial;
+    font-size: 1rem;
+    border: 0 solid white;
+    border-radius: 1rem;
+    padding: 0.3rem;
+    width: 15rem;
+    height: 5rem;
+    margin-top: 0.3rem;
+}
+
+.tour_task {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tour_task > label {
+    color: white;
+    font-family: Arial;
+    font-size: 1rem;
+    flex-direction: column;
+    display: flex;
+}
+
+.tour_task > textarea {
+    font-family: Arial;
+    font-size: 1rem;
+    border: 0 solid white;
+    border-radius: 1rem;
+    padding: 0.3rem;
+    width: 15rem;
+    height: 5rem;
+    margin-top: 0.3rem;
+}
+
+.tour_example {
+    margin-top: 1rem;
+}
+
+.tour_example > label {
+    color: white;
+    font-family: Arial;
+    font-size: 1rem;
+    flex-direction: column;
+    display: flex;
+}
+
+.tour_example > input {
+    font-family: Arial;
+    font-size: 1rem;
+    border: 0 solid white;
+    border-radius: 1rem;
+    padding: 0.3rem;
+    margin-top: 0.3rem;
+    width: 15rem;
+}
+
+.tour_create > button {
+    color: white;
+    background-color: #1b1b1b;
+    border: 0.2rem solid white;
+    border-radius: 1rem;
+    font-size: 1rem;
+    padding: 0.3rem;
+    margin-top: 1rem;
+    font-family: Arial;
+    width: 8rem;
+}
+
+.tour_create > button:hover {
+    color: #1b1b1b;
+    background-color: white;
+    font-weight: bold;
+}
+
+.tour_maplink {
+    margin-top: 1rem;
+}
+
+.tour_maplink > label {
+    color: white;
+    font-family: Arial;
+    font-size: 1rem;
+    flex-direction: column;
+    display: flex;
+}
+
+.tour_maplink > input {
+    font-family: Arial;
+    font-size: 1rem;
+    border: 0 solid white;
+    border-radius: 1rem;
+    padding: 0.3rem;
+    width: 15rem;
+    margin-top: 0.3rem;
+}
+
+.create_image {
+    margin-top: 1rem;
+    align-items: center;
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.create_image > label {
+    color: white;
+    font-size: 1rem;
+}
+
+.create_image > input {
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    color: white;
+}

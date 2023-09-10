@@ -1,0 +1,524 @@
+.tournamentPage {
+    display: flex;
+}
+
+.page {
+    color: white;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    font-size: 1rem;
+    flex: 1;
+}
+
+.a {
+    display: block;
+}
+
+.a > a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    border: 0.2rem solid white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    transition: 0.5s;
+    display: inline-block;
+    text-align: center;
+    width: 10rem;
+    margin-right: 0.5rem;
+}
+
+.a > a:hover {
+    color: #1b1b1b;
+    background-color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.task {
+    margin-top: 2rem;
+    white-space: pre-wrap
+}
+
+.task > p {
+    font-family: Arial;
+}
+
+.reglament {
+    margin-top: 2rem;
+    white-space: pre-wrap
+}
+
+.reglament > p {
+    font-family: Arial;
+}
+
+.visual_reglament {
+    margin-top: 2rem;
+    white-space: pre-wrap
+}
+
+.visual_reglament > p {
+    font-family: Arial;
+}
+
+.max_pilots {
+    margin-top: 2rem;
+}
+
+.max_pilots > p {
+    font-family: Arial;
+}
+
+.Participant {
+    margin-top: 2rem;
+}
+
+.Participant > p {
+    font-family: Arial;
+}
+
+.participant-info {
+    display: flex;
+    align-items: center;
+}
+
+.participant-info > button {
+    text-decoration: none;
+    color: white;
+    background-color: #1b1b1b;
+    font-family: Arial;
+    border: 0.2rem solid white;
+    border-radius: 1rem;
+    padding: 0.2rem;
+    transition: 0.5s;
+    font-size: 0.8rem;
+    width: 5rem;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+}
+
+.participant-info > button:hover {
+    color: #1b1b1b;
+    background-color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.enter {
+    margin-top: 1rem;
+}
+
+.enter > button {
+    text-decoration: none;
+    color: white;
+    background-color: #1b1b1b;
+    font-family: Arial;
+    border: 0.2rem solid white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    transition: 0.5s;
+    font-size: 1rem;
+    width: 8rem;
+}
+
+.enter > button:hover {
+    color: #1b1b1b;
+    background-color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.enter > p {
+    margin-top: 2rem;
+    color: #D44040;
+    font-weight: bold;
+}
+
+.bold {
+    font-size: 1.25rem;
+}
+
+.edit-buttons > button {
+    color: white;
+    background-color: #1b1b1b;
+    border: 0.2rem solid white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    width: 9rem;
+}
+
+.edit-buttons > button:hover {
+    color: #1b1b1b;
+    background-color: white;
+    font-weight: bold;
+}
+
+.edit-fields {
+    margin-top: 3rem;
+}
+
+.tourNameEdit > input {
+    color: white;
+    background-color: #1b1b1b;
+    border: 0.2rem solid white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.mapNameEdit > input {
+    color: white;
+    background-color: #1b1b1b;
+    border: 0.2rem solid white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.dateEdit > input {
+    color: white;
+    background-color: #1b1b1b;
+    border: 0.2rem solid white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.mapLinkEdit > input {
+    color: white;
+    background-color: #1b1b1b;
+    border: 0.2rem solid white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.exampleEdit > input {
+    color: white;
+    background-color: #1b1b1b;
+    border: 0.2rem solid white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.taskEdit > textarea {
+    color: white;
+    background-color: #1b1b1b;
+    border: 0.2rem solid white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.reglamentEdit > textarea {
+    color: white;
+    background-color: #1b1b1b;
+    border: 0.2rem solid white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.visualReglamentEdit > textarea {
+    color: white;
+    background-color: #1b1b1b;
+    border: 0.2rem solid white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.maxPilotsEdit > input {
+    color: white;
+    background-color: #1b1b1b;
+    border: 0.2rem solid white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+    width: 3rem;
+    margin-top: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.tourNameEdit,
+.mapNameEdit,
+.dateEdit,
+.mapLinkEdit,
+.exampleEdit,
+.taskEdit,
+.reglamentEdit,
+.visualReglamentEdit,
+.maxPilotsEdit {
+  margin-bottom: 1rem;
+}
+
+.tourNameEdit label,
+.mapNameEdit label,
+.dateEdit label,
+.mapLinkEdit label,
+.exampleEdit label,
+.taskEdit label,
+.reglamentEdit label,
+.visualReglamentEdit label,
+.maxPilotsEdit label {
+  display: block;
+}
+
+.tourNameEdit input,
+.mapNameEdit input,
+.dateEdit input,
+.mapLinkEdit input,
+.exampleEdit input,
+.taskEdit textarea,
+.reglamentEdit textarea,
+.visualReglamentEdit textarea {
+  width: auto;
+}
+
+.right {
+    margin-top: 5rem;
+    text-align: left;
+    align-items: left;
+}
+
+.right > p {
+    margin-top: 1rem;
+    color: white;
+    font-size: 0.75rem;
+}
+
+.tour_image > img {
+    max-width: 640px;
+    max-height: 360px;
+    min-height: 360px;
+}
+
+.tour_info {
+    margin-top: 1rem;
+}
+
+.tour_info > p {
+    margin-top: 1rem;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.qualification {
+    margin-top: 5rem;
+    text-align: left;
+    display: block;
+    flex: 1.75;
+    margin-left: 2rem;
+}
+
+.qualification > h3 {
+    color: white;
+}
+
+.qual_info {
+    margin-top: 2rem;
+}
+
+.qual_info > p {
+    color: white;
+    text-align: left;
+    margin: 0;
+    margin-top: 0.5rem;
+}
+
+.qual_info > input {
+    margin-top: 0.5rem;
+    background-color: #1b1b1b;
+    color: white;
+    padding: 0.5rem;
+    border: white 0.2rem solid;
+    border-radius: 1rem;
+    width: 3rem;
+}
+
+.qual_info > button {
+    background-color: #1b1b1b;
+    color: white;
+    padding: 0.5rem;
+    border: white 0.2rem solid;
+    border-radius: 1rem;
+    margin-top: -1.5rem;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.qual_info > button:hover {
+    background-color: white;
+    color: #1b1b1b;
+    font-weight: bold;
+}
+
+.grid {
+    display: flex;
+    color: white;
+}
+
+.grid > a {
+    text-decoration: none;
+    color: white;
+    background-color: #1b1b1b;
+    border: white 0.2rem solid;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    align-self: center;
+    margin-top: -1rem;
+    margin-left: 1rem;
+    width: 3rem;
+    transition: 0.5s;
+}
+
+.grid > a:hover {
+    background-color: white;
+    color: #1b1b1b;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 600px) {
+    .tournamentPage {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page {
+        margin-top: 3rem;
+        margin-left: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .a > a {
+        width: 7rem;
+        margin-right: 0.3rem;
+        font-size: 0.7rem;
+    }
+
+    .task {
+        margin-top: 1rem;
+    }
+
+    .task > p {
+        font-size: 0.7rem;
+    }
+
+    .reglament {
+        margin-top: 1rem;
+    }
+
+    .reglament > p {
+        font-size: 0.7rem;
+    }
+
+    .visual_reglament {
+        margin-top: 1rem;
+    }
+
+    .visual_reglament > p {
+        font-size: 0.7rem;
+    }
+
+    .max_pilots {
+        margin-top: 1rem;
+    }
+
+    .max_pilots > p {
+        font-size: 0.7rem;
+    }
+
+    .Participant {
+        margin-top: 1rem;
+    }
+
+    .Participant > p {
+        font-size: 0.7rem;
+    }
+
+    .participant-info > button {
+        width: 4rem;
+        margin-bottom: 1rem;
+        margin-left: 0.3rem;
+        font-size: 0.6rem;
+    }
+
+    .enter > button {
+        width: 5rem;
+        font-size: 0.7rem;
+    }
+
+    .enter > p {
+        margin-top: 1rem;
+    }
+
+    .bold {
+        font-size: 0.9rem;
+    }
+
+    .edit-buttons > button {
+        width: 5.5rem;
+        font-size: 0.7rem;
+    }
+
+    .tourNameEdit > input,
+    .mapNameEdit > input,
+    .dateEdit > input,
+    .mapLinkEdit > input,
+    .exampleEdit > input,
+    .taskEdit > textarea,
+    .reglamentEdit > textarea,
+    .visualReglamentEdit > textarea,
+    .maxPilotsEdit > input {
+        padding: 0.3rem;
+        margin-top: 0.3rem;
+        font-size: 0.7rem;
+    }
+
+    .tourNameEdit,
+    .mapNameEdit,
+    .dateEdit,
+    .mapLinkEdit,
+    .exampleEdit,
+    .taskEdit,
+    .reglamentEdit,
+    .visualReglamentEdit,
+    .maxPilotsEdit {
+        margin-bottom: 1rem;
+    }
+
+    .tourNameEdit label,
+    .mapNameEdit label,
+    .dateEdit label,
+    .mapLinkEdit label,
+    .exampleEdit label,
+    .taskEdit label,
+    .reglamentEdit label,
+    .visualReglamentEdit label,
+    .maxPilotsEdit label {
+        font-size: 0.7rem;
+    }
+
+    .right {
+        margin-top: -3rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .right > p {
+        margin-top: -3.5rem;
+    }
+
+    .tour_image > img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+    }
+}

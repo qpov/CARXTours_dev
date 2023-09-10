@@ -1,0 +1,130 @@
+.userInfo {
+  padding-top: 5rem;
+  margin-left: 2rem;
+}
+
+.userInfo > p {
+  color: white;
+  font-family: Arial;
+  font-size: 1.2rem;
+}
+
+.userInfo > button {
+  color: white;
+  background-color: #1b1b1b;
+  font-family: Arial;
+  font-size: 0.9rem;
+  border: 0.2rem solid white;
+  border-radius: 1rem;
+  padding: 0.4rem;
+  transition: 0.5s;
+  margin-top: 1rem;
+  width: 12rem;
+}
+
+.userInfo > button:hover {
+  color: #1b1b1b;
+  background-color: white;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+.organizer {
+  margin-top: 1rem;
+}
+
+.organizer > p {
+  color: white;
+  font-family: Arial;
+  font-size: 1.2rem;
+}
+
+.organizer :any-link {
+  display: inline-block;
+  width: 7rem;
+  text-decoration: none;
+  color: white;
+  font-family: Arial;
+  font-size: 0.9rem;
+  border: 0.2rem solid white;
+  border-radius: 1rem;
+  padding: 0.4rem;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.organizer :any-link:hover {
+  color: #1b1b1b;
+  background-color: white;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+.createOrganizer {
+  color: white;
+  font-family: Arial;
+}
+
+.createOrganizer > label,
+.createOrganizer > input {
+  display: block;
+  margin-top: 0.8rem;
+  font-family: Arial;
+  font-size: 0.9rem;
+}
+
+.createOrganizer > p {
+  font-family: Arial;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+.createOrganizer > input {
+  border: 0.2rem;
+  border-radius: 1rem;
+  padding: 0.4rem;
+}
+
+.createOrganizer > button:hover {
+  background-color: white;
+  color: #1b1b1b;
+  font-weight: bold;
+}
+
+.yes {
+  border-radius: 1rem 0rem 0rem 1rem;
+  background-color: #1b1b1b;
+  color: white;
+  border: 0.2rem solid white;
+  font-family: Arial;
+  font-size: 0.9rem;
+  padding: 0.4rem;
+}
+
+.no {
+  border-radius: 0rem 1rem 1rem 0rem;
+  background-color: #1b1b1b;
+  color: white;
+  border: 0.2rem solid white;
+  font-family: Arial;
+  font-size: 0.9rem;
+  padding: 0.4rem;
+}
+
+.exit > button {
+  color: white;
+  background-color: #1b1b1b;
+  font-family: Arial;
+  font-size: 0.9rem;
+  border: 0.2rem solid white;
+  border-radius: 1rem;
+  padding: 0.4rem;
+  transition: 0.5s;
+  width: 9rem;
+}
+
+.exit > button:hover {
+  color: #1b1b1b;
+  background-color: white;
+  font-weight: bold;
+}

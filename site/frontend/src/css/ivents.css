@@ -1,0 +1,139 @@
+.iventsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+.iventsFirstText {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 5rem;
+  color: white;
+  font-size: 1rem;
+  font-family: Arial;
+  white-space: nowrap;
+}
+
+.tourNameAndMap {
+  color: white;
+  font-family: Arial;
+  font-size: 1rem;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.iventsBlock {
+  background-color: #2b2b2b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1.5rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  max-width: 100%;
+  min-width: 30%;
+}
+
+.iventsBlockContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.iventsBlockCentered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.iventsBlock p {
+  color: white;
+  font-size: 1rem;
+  font-family: Arial;
+  margin: 0;
+  white-space: nowrap;
+  padding-left: 1rem;
+}
+
+.iventsBlock a {
+  color: white;
+  font-size: 1rem;
+  font-family: Arial;
+  margin: 0;
+  white-space: nowrap;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  text-decoration: none;
+  transition: 0.5s;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.iventsBlock a:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: #D44040;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+  .iventsFirstText, .tourNameAndMap, .iventsBlock p, .iventsBlock a {
+    font-size: 0.7rem;
+  }
+
+  .iventsBlock {
+    width: 90%;
+    max-width: none;
+  }
+
+  .iventsContainer {
+    padding-top: 0;
+  }
+
+  .iventsFirstText {
+    padding-top: 5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .iventsContainer {
+    padding-top: 0;
+    align-items: center;
+  }
+
+  .iventsBlockContent {
+    justify-content: space-between;
+  }
+
+  .iventsBlockCentered {
+    gap: 1rem;
+  }
+
+  .iventsBlock p {
+    padding: 0;
+  }
+
+  .iventsBlock p.short_org_name {
+    text-align: left;
+    padding-left: 2rem;
+  }
+
+  .iventsBlock p.iventsBlockDate {
+    text-align: right;
+    padding-right: 1rem;
+  }
+
+  .iventsBlock a {
+    margin-left: auto;
+  }
+
+  .iventsBlock {
+    width: auto;
+  }
+}

@@ -1,0 +1,10 @@
+.error {
+    text-align: center;
+    padding-top: 5%;
+  }
+  
+  .error>p {
+    color: white;
+    font-family: Arial;
+    font-size: 30px;
+  }

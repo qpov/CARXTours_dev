@@ -1,0 +1,24 @@
+/*
+
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+  border-radius: 10px 10px 10px 10px;
+  
+*/
+* {
+  font-family: Arial;
+  margin-top: 0;
+}
+
+button {
+  transition: 0.5s;
+}
+
+button:hover {
+  transition: 0.5s;
+}
+
+html {
+  background-color: #1b1b1b;
+}
